@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+}
+
+.header{
+    background-color: black;
+    padding: 10px;
+}
+
+nav{
+    background-color: black;
+    color:white;
+    display:inline;
+}
+
+ul{
+    display:inline;
+    padding-left: 60%;
+}
+
+li{
+    background-color: black;
+    color:gray;
+    padding-left: 5px;
+    display:inline;
+    cursor: pointer;
+}
+
+li:hover{
+    color:white;
+}
+
+.searchbar{
+    margin:50px;
+    text-align: center;
+    
+}
+
+input{
+    width:60%;
+    padding:10px;
+}
+
+.product{
+    display:flex;
+    padding-left: 26%;
+    position: relative;
+
+    
+}
+
+.box{
+
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width:225px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+h2{
+    text-align: left;
+    padding-left: 10px;
+    background-color:black;
+    color: white;
+    border-top-right-radius: 100%;
+    cursor: pointer;
+}
+
+.product_para{
+    position: absolute;
+    width:205px;
+    height: 0px;
+    padding:10px 10px;
+    bottom: 0;
+    text-align: justify;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.box:hover .product_para{
+    background-color: black;
+    color: white;
+    visibility: visible;
+    bottom: 0px;
+    opacity: .8;
+    transition-duration: .3s;
+    height: 111px;
+    
+    
+}
+
+.box:hover h2{
+    visibility: hidden;
+    opacity: 0;
+    bottom:0;
+    transition-duration: 0ms;
+
+}
+
+.aboutus{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aboutus_para{
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer_para{
+    margin-top: 40px;
+    color: gray;
+}
